@@ -1,60 +1,146 @@
 \documentclass{resume}
 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry}
 
-\name{John Q. Public}
-\address{ 4489 Oxford Lane \\ San Antonio, PA 90024  }
-\address{ 555~$\cdot$~356~$\cdot$~7936 \\ jpublic@example.edu }
+\name{Saravanan Tirunelveli Kanthi}
+\address{ stirunel@qti.qualcomm.com, (858)740-4758 }
+\address{ 13920 Capewood Lane, Apt 280, San Diego, CA 92128  }
 
 \def\nameskip{\bigskip}
 \def\sectionskip{\medskip}
 
-\begin{document}
+\begin{document} 
+
+  \begin{rSection}{Professional Summary}
+    Embedded software engineer with 8+ years of experience in developing 
+    Firmware/Low-level drivers for RF/Mobile communication chipsets catering to 
+    WCDMA, LTE,\& NR-5G standards. Extensive experience in HW-SW systems 
+    integration, HW-SW bring-up and debugging in RTOS environments.  
+  \end{rSection}
 
   \begin{rSection}{Education}
-    {\bf University of California, Berkeley} \hfill {\em June 2004} \\ 
-    { B.S. in Computer Science \& Engineering } \\
-    { Minor in Linguistics } \smallskip \\
-    { Member of Eta Kappa Nu } \\
-    { Member of Upsilon Pi Epsilon } \\
-    Overall GPA: 5.678
+    {\bf Georgia Institute of Technology, Atlanta, GA} 
+    \hfill {\em Aug 2007 - Dec 2009} \\ 
+    { M.S. in Electrical \& Computer Engineering } 
+    \hfill {GPA: 3.64/4.00} \\
+    Thesis: SAR A/D \& 3.5GHz RF Tx design in 90nm CMOS\\
+    Link: https://smartech.gatech.edu/handle/1853/33884\\
+    
+    {\bf Anna University, Crescent Engineering College, Chennai, India} 
+    \hfill {\em Aug 2002 - May 2006} \\ 
+    { B.E. in Electronics \& Communication Engineering } 
+    \hfill {GPA: 91\%} 
   \end{rSection}
-  
-  \begin{rSection}{Experience}
-  
-    \begin{rSubsection}{ACME, Inc}{October 2010 - Present}{Web Developer}{Palo Alto, CA}
-    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
-    \item Donec et mollis dolor. Praesent et diam eget libero Adobe Coldfusion egestas mattis sit amet vitae augue.
-    \item Nam tincidunt congue enim, ut porta lorem Microsoft SQL lacinia consectetur.
-    \item Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    \item Pellentesque auctor nisi id magna consequat JavaScript sagittis.
-    \item Aliquam at massa ipsum. Quisque bash bibendum purus convallis nulla ultrices ultricies.
-    \end{rSubsection}
-  
-    \begin{rSubsection}{AJAX Hosting}{December 2009 - October 2010}{Lead Developer}{Austin, TX}
-    \item Aenean ut gravida lorem. Ut turpis felis, Perl pulvinar a semper sed, adipiscing id dolor.
-    \item Curabitur dapibus enim sit amet elit pharetra tincidunt website feugiat nisl imperdiet. Ut convallis AJAX libero in urna ultrices accumsan.
-    \item Cum sociis natoque penatibus et magnis dis MySQL parturient montes, nascetur ridiculus mus.
-    \item In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
-    \item Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper.
-    \end{rSubsection}
-
-    \begin{rSubsection}{TinySoft}{January 2008 - April 2010}{Web Designer \& Developer}{Gainesville, GA}
-    \item Vivamus PostgreSQL fermentum semper porta. Nunc diam velit PHP, adipiscing ut tristique vitae
-    \item Maecenas convallis ullamcorper ultricies stylesheets.
-    \item Quisque mi metus, unit tests CSS ornare sit amet fermentum et, tincidunt et orci.
-    \item Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id
-    \end{rSubsection}
-  
-  \end{rSection}
-  
+ 
   \begin{rSection}{Technical Strengths}
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-      Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
-      Protocols \& APIs & XML, JSON, SOAP, REST \\
-      Databases & MySQL, PostgreSQL, Microsoft SQL \\
-      Tools & SVN, Vim, Emacs
+      Programming Languages & C, C++ \& Python  \\
+      Communication Protocols & WCDMA, DC-HSDPA, LTE, LAA, LTE-U \& 5G NR \\
+      Embedded Processors & ARM v5, v7, v11, Cortex M3/M4 \& Q6-DSP\\
+      Tools & Git, Vim, Emacs, Perforce, SlickEdit, GCC \& GDB \\
+      Domain Knowledge & Embedded Systems, DSP, RF engineering \& ASIC design \\
     \end{tabular}
-  \end{rSection}
+  \end{rSection}  
+   
+  \begin{rSection}{Professional Experience} 
+    \begin{rSubsection}
+    {Qualcomm Technologies, Inc}
+    {Nov 2015 - Present}
+    {Staff Engineer}
+    {San Diego, CA}
+    \item Defined the SW architecture for the receive chain operation in 5G NR 
+    Sub6 and Millimeter-wave – in Qualcomm flagship 5G modems - SDX50 and SDX55.
+    \item Established call flows and designed them to fit within the timeline 
+    needs of 5G NR Millimeter-wave.
+    \item Continuously worked with multiple teams - firmware, RF systems, 
+    Modem systems - to understand the scope of any feature, design the call 
+    flow, and set the expectation for deliverables.
+    \item Designed SW task plans to project the resource needs to meet certain 
+    milestones before the arrival of RF chipsets. 
+    \item Developed SW drivers to control feedback loops like Rx AGC 
+    (Automatic Gain control), AFC (Automatic frequency correction), and 
+    Beam management.
+    \item Developed FW drivers to precisely control the timing of each feedback 
+    operation, in strict adherence to the tight timeline requirements of 5G NR.
+    \item Core player in enabling LAA software developments and helped drive the 
+    adoption of Qualcomm modem solutions with LTE-U/LAA technology.
+    \item Developed LTE AS DIV (Antenna Switch Diversity) feature for customer 
+    specific hardware suited to their unique requirements - Apple \& Samsung.
+    \item Collaborate extensively with cross-functional teams in developing 
+    features to utilize the new features offered by the chipset.
+    \item Received 8+ Qualstar awards for outstanding contribution to 
+    LTE/5G/WCDMA/IOT efforts.
+    \end{rSubsection}
+    
+    \begin{rSubsection}
+    {Qualcomm Technologies, Inc}
+    {Nov 2012 - Nov 2015}
+    {Senior Engineer}
+    {San Diego, CA}
+    \item Developed low-level device drivers for enabling 3G/4G mode of 
+    operation in multiple RF chipsets RTR86xx, WTR16xx, WFR16xx, WTR39xx, and
+    WTR5975.
+    \item Designed a concurrency management module to facilitate Qualcomm 
+    dual-sim features like DSDA, DSDS \& DR-DSDS.
+    \item Designed \& developed the RFFE protocol interface for Qualcomm hardware 
+    and established an acceptable metric for external vendor chipsets.
+    \item Interact with customers to gather requirements for their specific 
+    feature requests and design them. 
+    \item Provide the first line of support to debug customer reported issues 
+    reported from their field tests, and resolve them.
+    \item Developed SW tools to automate testing of Qualcomm prototype device on 
+    R\&S CMW 500 test platform.
+    \end{rSubsection}    
+  
+    \begin{rSubsection}
+    {Qualcomm Technologies, Inc}
+    {June 2010 - Nov 2012}
+    {Engineer}
+    {San Diego, CA}
+    \item Part of the WCDMA technology core team, designated to work closely 
+    with customers to design, develop, bring-up, and debug RF device drivers.
+    \item Developed low-level device drivers for Qualcomm multimode RF chipsets 
+    with focus on 3G WCDMA/4G LTE.
+    \item Develop WCDMA RF features as per customer requirements and RF systems 
+    team recommendation.
+    \item Performed RF board bring up for 3G/4G technologies.    
+    \item Implemented process improvements for monitoring the Jenkins status and 
+    health of RF drivers at any given point of time.    
+    \end{rSubsection}   
+      
+    \begin{rSubsection}
+    {Georgia Institute of Technology \- Electrical \& Computer Engineering}
+    {Jan 2008 - Dec 2009}
+    {Graduate Research Assistant}
+    {Atlanta, GA}
+    \item Performed measurements and characterization of RF chipsets in 
+    Millimeter-wave frequencies.
+    \item Developed SAR ADC circuit to pair with a 3.5 GHz Transmitter circuit 
+    as a feeder circuit to 60 GHz transmitter. Verified this design on 90nm CMOS
+    technology and presented as my thesis.
+    \item Developed test framework, wrote embedded device drivers to probe the 
+    Millimeter-wave test bed at various points and tap out the signals through 
+    a GPIO. 
+    \end{rSubsection}
 
+    \begin{rSubsection}
+    {Wipro Technologies}
+    {August 2006 - June 2007}
+    {Project Engineer}
+    {Chennai, India}
+    \item Debugged and resolved issued reported by customers using HP 
+    multi-function printers.
+    \item Developed the embedded drivers for the \'Auto-Resolve\' in MFP 
+    (Multi-function printers),to automatically detect a paper-jam scenario and 
+    fix the same.
+    \item Managed integration of various software components for major software 
+    updates to  enterprise HP printers.
+    \end{rSubsection}  
+  \end{rSection}
+   
+  \begin{rSection}{References}
+    Available upon request. 
+  \end{rSection}
+   
 \end{document}
+
